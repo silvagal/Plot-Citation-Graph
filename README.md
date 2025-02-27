@@ -36,7 +36,7 @@ This visualization was created for the systematic review titled:
 
 This graph provides insights into citation patterns and helps assess the adherence of research papers to standard evaluation practices.
 
-![Citation Graph](graph.png)
+![Citation Graph](ecg_citation_graph.png)
 
 ## References  
 De Chazal, P., O'Dwyer, M., & Reilly, R. B. (2004). Automatic classification of heartbeats using ECG morphology and heartbeat interval features. *IEEE Transactions on Biomedical Engineering, 51*(7), 1196-1206. [DOI: 10.1109/TBME.2004.827359](https://doi.org/10.1109/TBME.2004.827359)
