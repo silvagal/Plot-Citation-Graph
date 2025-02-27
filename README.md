@@ -1,6 +1,6 @@
 # Citation Graph Visualization for Systematic Review  
 
-This Google Colab notebook generates a citation graph based on a systematic literature review on **ECG arrhythmia classification**. The generated graph visually represents citations between papers, highlighting whether they adhere to the **interpatient data partitioning method** proposed by De Chazal et al.
+This Google Colab notebook generates a citation graph based on a systematic literature review on **ECG arrhythmia classification**. The generated graph visually represents citations between papers, highlighting whether they adhere to the **interpatient data partitioning method** proposed by  (De Chazal et al., 2004).
 
 ## Features  
 - **Graph-based visualization** of citation relationships.  
@@ -35,3 +35,7 @@ This visualization was created for the systematic review titled:
 **"A Systematic Review of ECG Arrhythmia Classification: Embedded Feasibility, Adherence to Standards, and Fair Evaluation."**  
 
 This graph provides insights into citation patterns and helps assess the adherence of research papers to standard evaluation practices.
+
+## References  
+De Chazal, P., O'Dwyer, M., & Reilly, R. B. (2004). Automatic classification of heartbeats using ECG morphology and heartbeat interval features. *IEEE Transactions on Biomedical Engineering, 51*(7), 1196-1206. [DOI: 10.1109/TBME.2004.827359](https://doi.org/10.1109/TBME.2004.827359)
+
