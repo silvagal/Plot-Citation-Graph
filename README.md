@@ -1,9 +1,12 @@
 # Citation Graph Visualization for Systematic Review  
 
-This Google Colab notebook generates a citation graph based on a systematic literature review on **ECG arrhythmia classification**. The generated graph visually represents citations between papers, highlighting whether they adhere to the **interpatient data partitioning method** proposed by  (De Chazal et al., 2004).
+This Google Colab notebook generates a **directed citation graph** based on a systematic literature review on **ECG arrhythmia classification**. The graph visually represents citation relationships, where **arrows originate from the citing article and point to the cited article**.  
 
 ## Features  
 - **Graph-based visualization** of citation relationships.  
+- **Directed edges**: Arrows indicate the citation flow from one article to another.  
+- **Node size**: The larger the node, the more papers within the review have cited that article.  
+- **Color scale**: Represents the total number of citations the article has in the broader literature (not just within the review).  
 - Differentiates papers that **use** (*rounded nodes*) or **do not use** (*square nodes*) the **interpatient partitioning method** (Chazal et al.).  
 - Uses data from a **CSV file** containing relevant bibliometric details.  
 - Implements **PyAlex API** for citation retrieval.
@@ -34,7 +37,7 @@ A sample dataset (`example.csv`) is included in this repository, allowing users 
 This visualization was created for the systematic review titled:  
 **"A Systematic Review of ECG Arrhythmia Classification: Embedded Feasibility, Adherence to Standards, and Fair Evaluation."**  
 
-This graph provides insights into citation patterns and helps assess the adherence of research papers to standard evaluation practices.
+This graph provides insights into citation patterns, helping to assess research influence and adherence to standard evaluation practices.
 
 ![Citation Graph](ecg_citation_graph.png)
 
