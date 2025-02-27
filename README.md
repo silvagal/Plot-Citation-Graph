@@ -7,7 +7,7 @@ This Google Colab notebook generates a **directed citation graph** based on a sy
 - **Directed edges**: Arrows indicate the citation flow from one article to another.  
 - **Node size**: The larger the node, the more papers within the review have cited that article.  
 - **Color scale**: Represents the total number of citations the article has in the broader literature (not just within the review).  
-- Differentiates papers that **use** (*rounded nodes*) or **do not use** (*square nodes*) the **interpatient partitioning method** (Chazal et al.).  
+- Differentiates papers that **use** (*rounded nodes*) or **do not use** (*square nodes*) the **interpatient partitioning method** Chazal et al. (2004).  
 - Uses data from a **CSV file** containing relevant bibliometric details.  
 - Implements **PyAlex API** for citation retrieval.
 
