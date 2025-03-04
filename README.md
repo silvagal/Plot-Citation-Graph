@@ -35,6 +35,7 @@ A sample dataset (`example.csv`) is included in this repository, allowing users 
 
 ## Application  
 This visualization was created for the systematic review:
+
 "SILVA, G.A. L.; SILVA, P. H. L.;, MOREIRA, G. J. P; FREITAS, V. L. S.; GERTRUDES, J. C.; LUZ, E. J. S. **A Systematic Review of ECG Arrhythmia Classification: Embedded Feasibility, Adherence to Standards, and Fair Evaluation**. Submitted to **IEEE Reviews in Biomedical Engineering** in March, 2025".  
 
 This graph provides insights into citation patterns, helping to assess research influence and adherence to standard evaluation practices.
