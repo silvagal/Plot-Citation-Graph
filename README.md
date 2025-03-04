@@ -1,15 +1,15 @@
 # Citation Graph Visualization for Systematic Review  
 
-This Google Colab notebook generates a **directed citation graph** based on a systematic literature review on **ECG arrhythmia classification**. The graph visually represents citation relationships, where **arrows originate from the citing article and point to the cited article**.  
+This Google Colab notebook generates a **directed citation graph** based on a systematic literature review on **ECG arrhythmia classification**. The graph visually represents citation relationships, where **arrows originate from the citing article and point to the cited article**. We used the data from the OpenAlex API (https://openalex.org/) through the PyAlex library (https://github.com/J535D165/pyalex). 
 
 ## Features  
 - **Graph-based visualization** of citation relationships.  
 - **Directed edges**: Arrows indicate the citation flow from one article to another.  
 - **Node size**: The larger the node, the more papers within the review have cited that article.  
 - **Color scale**: Represents the total number of citations the article has in the broader literature (not just within the review).  
-- Differentiates papers that **use** (*rounded nodes*) or **do not use** (*square nodes*) the **interpatient partitioning method** Chazal et al. (2004).  
+- Differentiates papers that **use** (*rounded nodes*) or **do not use** (*square nodes*) the **interpatient partitioning method** proposed by De Chazal et al. (2004).  
 - Uses data from a **CSV file** containing relevant bibliometric details.  
-- Implements **PyAlex API** for citation retrieval.
+- Uses **PyAlex API** for citation retrieval.
 
 ## Required Setup  
 
@@ -34,8 +34,8 @@ This Google Colab notebook generates a **directed citation graph** based on a sy
 A sample dataset (`example.csv`) is included in this repository, allowing users to replicate the **citation graph** shown below.
 
 ## Application  
-This visualization was created for the systematic review titled:  
-**"A Systematic Review of ECG Arrhythmia Classification: Embedded Feasibility, Adherence to Standards, and Fair Evaluation."**  
+This visualization was created for the systematic review:
+"SILVA, G.A. L.; SILVA, P. H. L.;, MOREIRA, G. J. P; FREITAS, V. L. S.; GERTRUDES, J. C.; LUZ, E. J. S. **A Systematic Review of ECG Arrhythmia Classification: Embedded Feasibility, Adherence to Standards, and Fair Evaluation**. Submitted to **IEEE Reviews in Biomedical Engineering** in March, 2025".  
 
 This graph provides insights into citation patterns, helping to assess research influence and adherence to standard evaluation practices.
 
